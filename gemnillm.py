@@ -432,7 +432,7 @@ def main():
     """Example usage with conversation memory"""
     
     # Initialize with memory file
-    memory_file = "conversation_history.json"
+    memory_file ="conversations/conversation_history.json"
     
     with GeminiBlogGeneratorWithMemory(memory_file=memory_file) as generator:
         try:
